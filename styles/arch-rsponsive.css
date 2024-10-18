@@ -12,34 +12,41 @@
   .sponsor-companies {
     grid-template-columns: 1fr;
   }
-  .facts-container, .sponsor-companies {
+  .facts-container,
+  .sponsor-companies {
     justify-items: center;
   }
   .our-features {
     margin-left: 20px;
   }
-  #experience-badge{
+  #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
+  }
+  .footer {
+    margin: 15px;
+    padding: 30px 30px;
   }
 }
 
 /* medium size device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .teams, .festures {
+  .teams,
+  .festures {
     flex-direction: column;
   }
 
   .our-features {
     margin: 50px auto;
   }
-  .sponsor-companies, .facts-container{
+  .sponsor-companies,
+  .facts-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
   }
 
-  #experience-badge{
+  #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
   }
