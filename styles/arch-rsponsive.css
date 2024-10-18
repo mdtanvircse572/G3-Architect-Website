@@ -3,6 +3,7 @@
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
+  .features,
   .teams {
     flex-direction: column;
   }
@@ -11,20 +12,21 @@
   .sponsor-companies {
     grid-template-columns: 1fr;
   }
-  .facts-container {
+  .facts-container, .sponsor-companies {
     justify-items: center;
   }
   .our-features {
     margin-left: 20px;
   }
-  .sponsor-companies{
-    justify-items: center;
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 
 /* medium size device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .teams {
+  .teams, .festures {
     flex-direction: column;
   }
 
@@ -35,5 +37,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
+  }
+
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
